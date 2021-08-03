@@ -4,11 +4,16 @@
 #include <vector>
 #include <opencv2/opencv.hpp>
 
+// std와 cv라는 namespace 사용하겠다 선언합니다.
+// 인식하지 못하는 함수이름을 찾으면 std와 cv를 검사합니다.
 using namespace std;
 using namespace cv;
 
+// class 클래스명 
 class RoadLaneDetector
 {
+// 정보은닉을 위해 사용
+// public을 통해서만 접근가능
 private:
 	double img_size, img_center;
 	double left_m, right_m;
@@ -20,7 +25,7 @@ private:
 	double trap_top_width = 0.07;     //사다리꼴 위쪽 가장자리 너비 계산을 위한 백분율
 	double trap_height = 0.9;         //사다리꼴 높이 계산을 위한 백분율
 
-
+// 함수를 선언합니다.
 public:
 	Mat filter_colors(Mat img_frame);
 	Mat limit_region(Mat img_edges); 
@@ -291,7 +296,7 @@ int main()
 	VideoWriter writer;
 	int codec = VideoWriter::fourcc('X', 'V', 'I', 'D');  //원하는 코덱 선택
 	double fps = 100.0;  //프레임
-	string filename = "./result.avi";  //결과 파일
+	string filename = "./result.mp4";  //결과 파일
 
 	writer.open(filename, codec, fps, img_frame.size(), CV_8UC3);
 	if (!writer.isOpened()) {

@@ -88,8 +88,6 @@ https://sourceforge.net/projects/win32diskimager/
 
 ![image](https://user-images.githubusercontent.com/87622597/130153456-8b665a58-5f12-41d7-92f4-33d0b75196cd.png)
 
-![image](https://user-images.githubusercontent.com/87622597/130153472-5cb7e43b-05af-4d4d-8992-e4bf7b2e50e8.png)
-
 언어는 경로지정문제때문에 한글로 해도 잘된다하지만 일단 영어로 했다.
 
 키보드는 기본 english(us)로

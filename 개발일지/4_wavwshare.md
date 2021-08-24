@@ -44,3 +44,27 @@
 지금 강사님이 있을때 같이 진도를 맞추어 나가 우선 도움을 받는편이 훨씬 효율적일 것 같다. 따라서 내일은 다같이 지급받은 jetson tx가 아닌
 
 jetson nano로 진행하기위해 지금까지의 과정들을 나노에 빠르게 진행시켜야 할 것이다.
+
+g캠프라는 곳의 강의 과정(심화) https://www.g.camp/1208
+
+한국인을 위한 젯슨나노 깃허브 정말 정보가 어마어마 하다...  https://github.com/jugfk?tab=repositories
+
+젯슨나노 스타트 ssh 관련 주피터노트북과 가상환경등의 정보가 있다(영어)  https://medium.com/@heldenkombinat/getting-started-with-the-jetson-nano-37af65a07aab
+
+항상 도움받는 제타블로그(충돌방지 정보수집) https://blog.naver.com/zeta0807/221760384550
+
+제타블로그도 참고한 기본 젯슨 강의 https://robertchoi.gitbook.io/jetbot/2
+
+제타블로그도 참고한 기본 젯슨 강의가 참고한 제일 중요한 waveshare 공식홈페이지 https://www.waveshare.com/wiki/JetBot_AI_Kit
+
+주피터랩 설치방법 https://opencourse.tistory.com/345
+
+ros 부터 opencv까지 나중에 도움될지도?.. https://95mkr.tistory.com/entry/ROS3?category=746766
+
+오늘 발견한 세종대 sally의 동료 블로그(심화) 도움이 매우 될것같다. https://jgrammer.tistory.com/entry/JETSON-NANO-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D?category=903609
+
+원조 sally 티스토리 https://sol2gram.tistory.com/12?category=816331
+
+젯슨나노 부트로더 오류 해결방법(중국어)  https://www.codeleading.com/article/30734974788/
+
+현대모비스 젯슨나노강의 상당히 괜찮음 https://www.mincasurong.com/teaching-experience/mobis-sw-2021-jetson-nano/1-jetson-nano-%EC%A4%80%EB%B9%84
